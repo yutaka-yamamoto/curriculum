@@ -1,0 +1,101 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+.box1{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.box2{
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.box3{
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+.box4{
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+.box5{
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+.container{
+    float: left;
+}
+.container2{
+    float: left;
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        width: 300px;    
+    }
+    .box1{
+        width: 100px;
+    }
+    .box2{
+        width: 75px;
+    }
+    .box3{
+        width: 125px;
+    }
+    .box4{
+        width: 125px;
+    }
+    .box5{
+        width: 200px;
+    }
+    .footer{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header{
+        width: 150px;    
+    }
+    .clear{
+        clear: both;
+    }
+    .box1{
+        width: 150px;
+        height: 100px;
+    }
+    .box2{
+        width: 150px;
+        height: 100px;
+    }
+    .box3{
+        width: 150px;
+    }
+    .box4{
+        width: 150px;
+    }
+    .box5{
+        width: 150px;
+    }
+    .footer{
+        width: 150px;
+    }
+}
