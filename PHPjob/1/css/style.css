@@ -15,7 +15,6 @@
      right: 20px;
  }
  .sbox1,
- .sbox2,
  .sbox3{
      width: 40px;
      height: 40px;
@@ -23,6 +22,15 @@
      border: 10px #fff solid;
      float: left;
  }
+ .sbox2{
+     width: 40px;
+     height: 40px;
+     background-color: #a9004b;
+     border-top: 10px #fff solid;
+     border-bottom: 10px #fff solid;
+     float: left;
+ }
+
  .box1{
      width: 150px;
      height: 250px;
@@ -69,6 +77,9 @@
      .container{
          right: 70px;
      }
+     .sbox2{
+        border: 10px #fff solid;
+     }
      .box1{
          width: 200px;
          height: 100px;
@@ -80,6 +91,11 @@
      .container2{
          left: 30px;
          top: 20px;
+     }
+     .mbox1,
+     .mbox2,
+     .mbox3{
+         width: 130px;
      }
      .footer{
          width: 200px;
