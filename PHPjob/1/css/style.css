@@ -75,11 +75,16 @@
          clear: both;
      }
      .container{
+         top: 30px;
          right: 70px;
      }
      .sbox2{
-        border: 10px #fff solid;
+         border-left: 10px #fff solid;
+         border-right: 10px #fff solid;
+         border-top: none;
+         border-bottom: none;
      }
+    
      .box1{
          width: 200px;
          height: 100px;
